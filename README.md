@@ -1,4 +1,5 @@
-Test Stationality and Arima on Time series data 
+# Testing  Stationality and Arima Model for Time series forecasting 
+
 **we use Air Passenger dataset and daily Daily minimum temperatures in Melbourne dataset**
 
 ## Stationarity
@@ -6,7 +7,7 @@ Test Stationality and Arima on Time series data
 A common assumption in many time series techniques is that the data are stationary.
 A stationary process has the property that the mean, variance and autocorrelation structure do not change over time. Stationarity can be defined in precise mathematical terms, but for our purpose we mean a flat looking series, without trend, constant variance over time, a constant autocorrelation structure over time and no periodic fluctuation
 
-## Procedure
+### Procedure
 
 1. Read the dataset as a series 
 2. Display table and visualize the Air two dataset
@@ -16,7 +17,7 @@ A stationary process has the property that the mean, variance and autocorrelatio
 6. Using EWMA to make the time series stationary
 7. Using First-Order Difference to make the time series stationary
 
-## Arima 
+### Arima 
 ARIMA is an acronym that stands for AutoRegressive Integrated Moving Average. It is a class of model that captures a suite of different standard temporal structures in time series data. The Model can be used 
 
 This acronym is descriptive, capturing the key aspects of the model itself. Briefly, they are:
